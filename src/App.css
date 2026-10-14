@@ -1,0 +1,153 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+
+}
+
+
+
+
+.Title, .DeckCount, .Desc {
+  text-align: center;
+}
+
+.Card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40vw;
+  height: 200px;
+
+  background-color: rgb(182, 62, 62);
+  padding: 50px;
+  border-radius: 20px;
+
+  transition: transform 0.6s ease;
+  cursor: pointer;
+}
+
+.Card.flipped {
+  background-color: rgb(138, 213, 143);
+}
+
+button {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size: 100%;
+  background-color: rgb(77, 92, 118);
+  padding: 20px 10px 20px 10px;
+  border: none;
+  border-radius: 10px;
+}
+
+button:hover {
+    background-color: rgb(58, 70, 90);
+    cursor: pointer;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+
+#Addition {
+  background-color: rgb(215, 114, 114);
+}
+
+#Addition-flipped {
+  background-color: rgb(116, 227, 129);
+}
+
+
+#Multiplication {
+  background-color: rgb(31, 228, 228);
+}
+
+#Multiplication-flipped {
+  background-color: rgb(164, 244, 244);
+}
+
+
+#Subtraction {
+  background-color: rgb(126, 10, 227);
+}
+
+#Subtraction-flipped {
+  background-color: rgb(197, 157, 237);
+}
+
+
+
+#Division {
+  background-color: rgb(232, 220, 4);
+}
+
+#Division-flipped {
+  background-color: rgb(225, 163, 88);
+}
+
+
+.reply {
+  border-style: solid;
+  border-color: black;
+  border-radius: 10px;
+  height: 30px ;
+  width: 100px;
+  text-align: center;
+}
+
+.reply-true {
+  border: 3.5px;
+  border-style: solid;
+  border-color: rgb(36, 129, 36);
+  border-radius: 10px;
+  height: 30px ;
+  width: 100px;
+  text-align: center;
+    
+}
+
+
+
+.reply-false {
+  border: 3.5px;
+  border-style: solid;
+  border-color: rgb(173, 39, 39);
+  border-radius: 10px;
+  height: 30px ;
+  width: 100px;
+  text-align: center;
+
+}
+
+.slide-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+
+.active {
+  background-color: rgb(77, 92, 118);
+}
+
+
+.not-active {
+  background-color: rgba(77, 92, 118, 0.198);;
+  border: 2px;
+  border-style: solid ;
+  border-color: rgb(77, 92, 118);
+}
+
+.not-active:hover {
+    background-color: rgba(77, 92, 118, 0.198);;
+    cursor: default;
+}
+
+button:active {
+  transform: scale(1);
+}
