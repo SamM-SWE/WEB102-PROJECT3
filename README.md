@@ -1,5 +1,5 @@
 
-# Basic Maths Flashcards 🧮
+# WEB102 Project 3 🧮
 
 An interactive math flashcard application built using React and Vite. Designed to help beginners practice basic mathematical operations through interactive flashcards, answer validation, and simple navigation.
 
